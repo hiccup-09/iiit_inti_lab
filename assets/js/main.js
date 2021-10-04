@@ -248,3 +248,7 @@
 			._parallax();
 
 })(jQuery);
+
+var uri = window.location.href;
+var newUri = uri.substring(0,uri.lastIndexOf("/")+1);
+window.history.pushState({},document.title,newUri);

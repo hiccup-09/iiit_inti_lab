@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="assets/css/profile_card.css"/>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css "/>
-        <script src="cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+        <!-- <link href="cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css "/>
+        <script src="cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script> -->
 
 
 	</head>
@@ -64,7 +64,7 @@
 							</li>
 							<li><a href="Resource.html" >Resource</a></li>
 							<li><a href="#" >Daily Photo</a></li>
-							<li><a target="_blank" href="#" class="button primary">GoMeeting</a></li>
+							<li><a target="_blank" href="go_meeting.html" class="button primary">GoMeeting</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -80,114 +80,115 @@
 
 						<!-- Content -->
                         <section id="content">
-                            <table id="tableProfile">
-                                <thead></thead>
-                                <tbody>
-                                    <!-- Profile first row -->
-                                    <tr>
-                                        <!-- First Profile in first row -->
-                                        <td align="center">
-                                            <div class="card1">
-                                                <img src="images/profile.jpg" alt="John" style="width:100%">
-                                                <h1>John Doe</h1>
-                                                <p class="title">CEO & Founder, Example</p>
-                                                <p>Harvard University</p>
-                                                <div style="margin: 24px 0;">
-                                                <a href="#" id="profile"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-                                                <a href="#"><i class="fa fa-linkedin"></i></a> 
-                                                </div>
-                                                <p><a href="mailto:sample@mail.com" ><button id="btn1">Email</button></a></p>
-                                            </div> 
-                                        </td>
-                                        <!-- First Profile in first row end -->
+                            <div class="containerProfile">
+                                <div class="cardProfile">
+                                  <div class="boxProfile">
+                                    <div class="contentProfile">
+                                      <img src="images/profile.jpg" class="imgProfile"/>
+                                      <h3>Name sample</h3>
+                                      <p> sample designation</p>
+                                      <p> sample text</p>
+                                      <a href="mailto: sample@mail.com"><button class="btnProfile">Email</button></a>
+                                    </div>
+                                  </div>
+                                </div>
 
-                                        <!-- Second Profile in first row -->
-                                        <td align="center">
-                                            <div class="card1">
-                                                <img src="images/profile.jpg" alt="John" style="width:100%">
-                                                <h1>John Doe</h1>
-                                                <p class="title">CEO & Founder, Example</p>
-                                                <p>Harvard University</p>
-                                                <div style="margin: 24px 0;">
-                                                <a href="#" id="profile"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-                                                <a href="#"><i class="fa fa-linkedin"></i></a> 
-                                                </div>
-                                                <p><a href="mailto:sample@mail.com" ><button id="btn1">Email</button></a></p>
-                                            </div> 
-                                        </td>   
-                                        <!-- Second Profile in first row end --> 
-                                        <!-- Third Profile in first row -->
-                                        <td align="center">
-                                            <div class="card1">
-                                                <img src="images/profile.jpg" alt="John" style="width:100%">
-                                                <h1>John Doe</h1>
-                                                <p class="title">CEO & Founder, Example</p>
-                                                <p>Harvard University</p>
-                                                <div style="margin: 24px 0;">
-                                                <a href="#" id="profile"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-                                                <a href="#"><i class="fa fa-linkedin"></i></a> 
-                                                </div>
-                                                <p><a href="mailto:sample@mail.com" ><button id="btn1">Email</button></a></p>
-                                            </div> 
-                                        </td>   
-                                        <!-- ThirdProfile in first row end -->                                 
-                                    </tr>
-                                    <!-- Profile first row End-->
+                                <div class="cardProfile">
+                                    <div class="boxProfile">
+                                      <div class="contentProfile">
+                                        <img src="images/profile.jpg" class="imgProfile"/>
+                                        <h3>Name sample</h3>
+                                        <p> sample designation</p>
+                                        <p> sample text</p>
+                                        <a href="mailto: sample@mail.com"><button class="btnProfile">Email</button></a>
+                                      </div>
+                                    </div>
+                                  </div>
 
+                                  <div class="cardProfile">
+                                    <div class="boxProfile">
+                                      <div class="contentProfile">
+                                        <img src="images/profile.jpg" class="imgProfile"/>
+                                        <h3>Name sample</h3>
+                                        <p> sample designation</p>
+                                        <p> sample text</p>
+                                        <a href="mailto: sample@mail.com"><button class="btnProfile">Email</button></a>
+                                      </div>
+                                    </div>
+                                  </div>
 
+                                  <div class="cardProfile">
+                                    <div class="boxProfile">
+                                      <div class="contentProfile">
+                                        <img src="images/profile.jpg" class="imgProfile"/>
+                                        <h3>Name sample</h3>
+                                        <p> sample designation</p>
+                                        <p> sample text</p>
+                                        <a href="mailto: sample@mail.com"><button class="btnProfile">Email</button></a>
+                                      </div>
+                                    </div>
+                                  </div>
 
-                                    <!-- Profile second row -->
-                                    <tr>
-                                        <!-- First Profile in second row -->
-                                        <td align="center">
-                                            <div class="card1">
-                                                <img src="images/profile.jpg" alt="John" style="width:100%">
-                                                <h1>John Doe</h1>
-                                                <p class="title">CEO & Founder, Example</p>
-                                                <p>Harvard University</p>
-                                                <div style="margin: 24px 0;">
-                                                <a href="#" id="profile"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-                                                <a href="#"><i class="fa fa-linkedin"></i></a> 
-                                                </div>
-                                                <p><a href="mailto:sample@mail.com" ><button id="btn1">Email</button></a></p>
-                                            </div> 
-                                        </td>
-                                        <!-- First Profile in second row end -->
+                                  <div class="cardProfile">
+                                    <div class="boxProfile">
+                                      <div class="contentProfile">
+                                        <img src="images/profile.jpg" class="imgProfile"/>
+                                        <h3>Name sample</h3>
+                                        <p> sample designation</p>
+                                        <p> sample text</p>
+                                        <a href="mailto: sample@mail.com"><button class="btnProfile">Email</button></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="cardProfile">
+                                    <div class="boxProfile">
+                                      <div class="contentProfile">
+                                        <img src="images/profile.jpg" class="imgProfile"/>
+                                        <h3>Name sample</h3>
+                                        <p> sample designation</p>
+                                        <p> sample text</p>
+                                        <a href="mailto: sample@mail.com"><button class="btnProfile">Email</button></a>
+                                      </div>
+                                    </div>
+                                  </div>
 
-                                        <!-- Second Profile in second row -->
-                                        <td align="center">
-                                            <div class="card1">
-                                                <img src="images/profile.jpg" alt="John" style="width:100%">
-                                                <h1>John Doe</h1>
-                                                <p class="title">CEO & Founder, Example</p>
-                                                <p>Harvard University</p>
-                                                <div style="margin: 24px 0;">
-                                                <a href="#" id="profile"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-                                                <a href="#"><i class="fa fa-linkedin"></i></a> 
-                                                </div>
-                                                <p><a href="mailto:sample@mail.com" ><button id="btn1">Email</button></a></p>
-                                            </div> 
-                                        </td>   
-                                        <!-- Second Profile in second row end --> 
-                                        <!-- Third Profile in second row -->
-                                        <td align="center">
-                                            <div class="card1">
-                                                <img src="images/profile.jpg" alt="John" style="width:100%">
-                                                <h1>John Doe</h1>
-                                                <p class="title">CEO & Founder, Example</p>
-                                                <p>Harvard University</p>
-                                                <div style="margin: 24px 0;">
-                                                <a href="#" id="profile"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-                                                <a href="#"><i class="fa fa-linkedin"></i></a> 
-                                                </div>
-                                                <p><a href="mailto:sample@mail.com" ><button id="btn1">Email</button></a></p>
-                                            </div> 
-                                        </td>   
-                                        <!-- ThirdProfile in second row end -->                                 
-                                    </tr>
-                                    <!-- Profile second row End-->
-                                </tbody>
-                            </table>                               
+                                  <div class="cardProfile">
+                                    <div class="boxProfile">
+                                      <div class="contentProfile">
+                                        <img src="images/profile.jpg" class="imgProfile"/>
+                                        <h3>Name sample</h3>
+                                        <p> sample designation</p>
+                                        <p> sample text</p>
+                                        <a href="mailto: sample@mail.com"><button class="btnProfile">Email</button></a>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="cardProfile">
+                                    <div class="boxProfile">
+                                      <div class="contentProfile">
+                                        <img src="images/profile.jpg" class="imgProfile"/>
+                                        <h3>Name sample</h3>
+                                        <p> sample designation</p>
+                                        <p> sample text</p>
+                                        <a href="mailto: sample@mail.com"><button class="btnProfile">Email</button></a>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="cardProfile">
+                                    <div class="boxProfile">
+                                      <div class="contentProfile">
+                                        <img src="images/profile.jpg" class="imgProfile"/>
+                                        <h3>Name sample</h3>
+                                        <p> sample designation</p>
+                                        <p> sample text</p>
+                                        <a href="mailto: sample@mail.com"><button class="btnProfile">Email</button></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>                            
                         </section>
 					</div>
 				</div>
