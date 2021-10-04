@@ -1,0 +1,34 @@
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(219, 213, 213, 0.561);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title1 {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button#btn1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a#profile {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+  }
+  
+  button#btn1:hover, a:hover {
+    opacity: 0.7;
+  }
